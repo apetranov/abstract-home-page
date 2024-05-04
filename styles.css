@@ -1,0 +1,21 @@
+.arrow-change-color {
+    filter: hue-rotate(90deg);
+}
+
+
+.centered-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: block;
+}
+
+/* CSS for smaller screens */
+@media only screen and (max-width: 800px) {
+    .buttons {
+      display: none;
+    }
+  }
